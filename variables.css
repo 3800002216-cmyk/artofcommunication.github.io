@@ -1,0 +1,56 @@
+:root {
+  /* Brand Color Palette */
+  --color-primary: #0756A5;          /* Primary Blue */
+  --color-primary-dark: #082B52;     /* Dark Navy */
+  --color-primary-light: #EAF4FF;    /* Light Blue */
+  --color-accent: #16A6D9;           /* Accent Cyan */
+  --color-white: #FFFFFF;            /* White */
+  --color-text-main: #243447;        /* Text Color */
+  --color-text-muted: #5A6D82;       /* Secondary Muted Text */
+  --color-text-light: #8E9FAA;       /* Very Light Text */
+  
+  /* Support & Semantic Colors */
+  --color-bg-page: #F7FAFC;
+  --color-bg-surface: #FFFFFF;
+  --color-bg-subtle: #F0F6FD;
+  --color-border: #D8E5F3;
+  --color-border-light: #EBF2FA;
+  
+  --color-success: #10B981;
+  --color-success-light: #ECFDF5;
+  --color-warning: #F59E0B;
+  --color-warning-light: #FFFBEB;
+  --color-error: #EF4444;
+  --color-error-light: #FEF2F2;
+  --color-info: #0284C7;
+  --color-info-light: #F0F9FF;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-heading: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', Consolas, Monaco, monospace;
+  
+  /* Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(8, 43, 82, 0.05);
+  --shadow-sm: 0 2px 6px 0 rgba(8, 43, 82, 0.06);
+  --shadow-md: 0 4px 14px -2px rgba(8, 43, 82, 0.08), 0 2px 6px -1px rgba(8, 43, 82, 0.04);
+  --shadow-lg: 0 10px 25px -3px rgba(8, 43, 82, 0.10), 0 4px 10px -2px rgba(8, 43, 82, 0.04);
+  --shadow-xl: 0 20px 35px -5px rgba(8, 43, 82, 0.12), 0 10px 16px -5px rgba(8, 43, 82, 0.04);
+  --shadow-glow: 0 0 25px rgba(22, 166, 217, 0.25);
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Layout */
+  --container-max: 1200px;
+  --nav-height: 76px;
+}
